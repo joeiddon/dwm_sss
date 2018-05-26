@@ -1,0 +1,10 @@
+#! /bin/bash
+
+while true;
+do
+    f=$(cat /sys/class/thermal/thermal_zone0/temp)
+    t=$(echo $f | cut -b -2).$(echo $f | cut -b 3-)°C
+    d=$(date '+%a %b %d, %H:%M:%S')
+    xsetroot -name "$d | $t"
+    sleep 0.4;
+done;
