@@ -1,4 +1,4 @@
-dwm_sm
+dwm-sss
 ======
 
 #### Dynamic Window Manager Status Monitor
