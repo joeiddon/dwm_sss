@@ -27,5 +27,5 @@ This was designed to work with Raspbian OS on the RPI3, but if you modify the `/
 
 This is what the status bar should look like:
 
-
-![example image](s.jpg)
+![closeup](closeup.jpg)
+![screenshot](screenshot.jpg)
