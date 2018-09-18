@@ -16,7 +16,7 @@ This was designed to work with Raspbian OS on the RPI3, but if you modify the `/
 3. Edit your `~/.xinitrc` to include the following line:
 
 ```sh
-/path/to/the/file/dwm_sm&
+/path/to/the/file/dwm_sss &
 ```
 
 4. Call `xinit`/`startx` or reboot to start the daemon.
