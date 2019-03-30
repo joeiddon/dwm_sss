@@ -12,11 +12,11 @@ This was designed to work with Raspbian OS on the RPI3, but if you modify the `/
 ### Installation
 
 1. Download the bash script and save to a location on your machine.
-2. Use `chmod` to make it executable  (e.g. `chmod 700 dwm_sm`.
+2. Use `chmod` to make it executable  (e.g. `chmod 700 dwm-sss`).
 3. Edit your `~/.xinitrc` to include the following line:
 
 ```sh
-/path/to/the/file/dwm_sm&
+/path/to/dwm-sss &
 ```
 
 4. Call `xinit`/`startx` or reboot to start the daemon.
