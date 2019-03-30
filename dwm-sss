@@ -6,5 +6,5 @@ do
     t=$(echo $f | cut -b -2).$(echo $f | cut -b 3-)°C
     d=$(date '+%a %b %d, %H:%M:%S')
     xsetroot -name "$d | $t"
-    sleep 0.4;
+    sleep 0.1;
 done;
